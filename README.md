@@ -20,7 +20,7 @@ Now we create our Storage Container!
 ![image](https://user-images.githubusercontent.com/75094927/133794925-c491ad1f-84ce-4e05-8fb0-c9483232ecb6.png)
 
 
-▶️2.Step: In your AndroidManifest.xml file write this code in <Application>....</Application> Tags:
+▶️2.Step: In your AndroidManifest.xml file write this code in <Application>....</Application> Tags: ✈️ [applicationid] = Your project package name
 
        <provider android:name="android.support.v4.content.FileProvider" 
 				android:authorities="${applicationId}.fileprovider" 
