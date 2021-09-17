@@ -103,7 +103,7 @@ Now we create our Storage Container!
 ▶️1.Step: Copy Connection String Key on Azure Storage Account [Please copy key1, Bağlantı dizesi(Connection string)]: 
    
    
-   <img src="https://user-images.githubusercontent.com/75094927/133803292-3a112b32-25fe-4df4-8062-3803b2e34c36.png" width="500" height="500">
+   <img src="https://user-images.githubusercontent.com/75094927/133803292-3a112b32-25fe-4df4-8062-3803b2e34c36.png" width="800" height="500">
 
 
 ▶️2.Step: Download WindowsAzure.Storage package on your project and  you must create CloudStorageAccount object for connection string key integration:
