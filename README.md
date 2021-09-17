@@ -102,7 +102,8 @@ Now we create our Storage Container!
 
 
 
-▶️1.Step: Download WindowsAzure.Storage package on your project
+▶️1.Step: Download WindowsAzure.Storage package on your project and  you must create string object for connection string key integration:
+           
 
 
 ▶️2.Step: Write Task method like UploadAzureToFile() and enter this logic in this Task method:
@@ -110,7 +111,7 @@ Now we create our Storage Container!
       public async Task UploadAzureToFile(MediaFile file)
         {
              CloudBlobClient cloudBlobClient = storage.CreateCloudBlobClient();
-             CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference("facestorage");
+             CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference("Your_Container_Name");
             string filePath = file.Path;
             string fileName = Path.GetFileName(filePath);
             await cloudBlobContainer.CreateIfNotExistsAsync();
