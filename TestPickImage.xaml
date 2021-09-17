@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoveCalculator.TestPickImage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="myImage"/>
+            <Button x:Name="pick_image_but" Text="Pick" Clicked="pick_image_but_Clicked"/>
+            <Label x:Name="test" TextColor="Black" FontSize="15"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
